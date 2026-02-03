@@ -3,5 +3,8 @@ runtime: nodejs20
 env_variables:
   PORT: "8080"
   NODE_ENV: "production"
-  # FIREBASE_SERVICE_ACCOUNT_KEY should be set via Secret Manager
-  # See DEPLOYMENT.md for instructions
+
+# For App Engine, use Secret Manager
+# Note: Secrets are accessed differently in App Engine
+# You may need to modify your code to use Secret Manager API directly
+# Or use the service account file approach with Cloud Storage
