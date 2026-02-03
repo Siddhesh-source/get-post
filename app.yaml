@@ -1,0 +1,7 @@
+runtime: nodejs20
+
+env_variables:
+  PORT: "8080"
+  NODE_ENV: "production"
+  # FIREBASE_SERVICE_ACCOUNT_KEY should be set via Secret Manager
+  # See DEPLOYMENT.md for instructions
